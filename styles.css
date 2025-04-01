@@ -1,0 +1,22 @@
+:root {
+    --color-fondo: #161616;
+    --color-texto: #BFC3C8;
+    --fuente-principal: sans-serif;
+    --color-hover: chocolate;
+}
+
+body{
+    background-color: var(--color-fondo);
+    font-family: var(--fuente-principal);
+    padding: 20px;
+    color: var(--color-texto);
+}
+
+
+a{
+    color: var(--color-texto);
+    text-decoration: none;
+}
+a:hover{
+    color: var(--color-hover);
+}
