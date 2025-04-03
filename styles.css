@@ -56,10 +56,9 @@ a:hover{
 }
 
 .card {
-    background: #1e1e1e;
+    border: 2px solid #222; /* borde de la tarjeta */
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
     overflow: hidden;
 }
@@ -74,6 +73,7 @@ a:hover{
     margin: 8px 0;
 }
 .tech-icons {
+    
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
@@ -83,4 +83,10 @@ a:hover{
     padding: 4px 8px;
     border-radius: 4px;
     font-size: 12px;
+
+}
+
+.tech-icons span svg {
+    margin-right: 5px; /* O 10px si quieres más separación */
+    vertical-align: middle; /* Para alinearlo mejor con el texto */
 }
