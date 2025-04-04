@@ -4,8 +4,8 @@
 - ✔️ Debe tener un layout donde muestre mi nombre con redes sociales.
 - ✔️ Debe tener un about
 - ✔️ Debe tener una seccion de proyectos
-- ⭕ Debe tener una seccion de experiencia ☠️
-- ⭕ Debe tener una seccion de proyectos
+- ✔️ Debe tener una seccion de proyectos
+- ✔️Debe tener una seccion de experiencia ☠️
 
 -------------
 - Recursos
